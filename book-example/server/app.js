@@ -4,10 +4,6 @@ const typeDefs = require("./schema/schema");
 const resolvers = require("./resolver/resolver");
 
 const init = async () => {
-    // Load schema & resolvers
-    const typeDefs = require('./schema/schema')
-    const resolvers = require('./resolver/resolver')
-
     const server = new ApolloServer({
         typeDefs,
         resolvers
