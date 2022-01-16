@@ -2,32 +2,38 @@ const books = [
     {
         id: 1,
         name: 'Tắt Đèn',
-        genre: 'Tiểu thuyết'
+        genre: 'Tiểu thuyết',
+        authorId: 1
     },
     {
         id: 2,
         name: 'Chí Phèo',
-        genre: 'Truyện ngắn'
+        genre: 'Truyện ngắn',
+        authorId: 2
     },
     {
         id: 3,
         name: 'Số Đỏ',
-        genre: 'Tiểu thuyết'
+        genre: 'Tiểu thuyết',
+        authorId: 3
     },
     {
         id: 4,
         name: 'Đời Thừa',
-        genre: 'Truyện ngắn'
+        genre: 'Truyện ngắn',
+        authorId: 2
     },
     {
         id: 5,
         name: 'Sống Mòn',
-        genre: 'Tiểu thuyết'
+        genre: 'Tiểu thuyết',
+        authorId: 2
     },
     {
         id: 6,
         name: 'Kĩ nghệ lấy Tây',
-        genre: 'Phóng sự'
+        genre: 'Phóng sự',
+        authorId: 3
     }
 ]
 
